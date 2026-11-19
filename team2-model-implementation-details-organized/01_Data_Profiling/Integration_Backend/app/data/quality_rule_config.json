@@ -1,0 +1,16 @@
+﻿{
+  "schema_version": "1.0",
+  "dataset_name": "HumanResources.Employee",
+  "rules": {
+    "column_boundaries": {
+      "VacationHours": {
+        "min_value": 0,
+        "max_value": 120
+      },
+      "SickLeaveHours": {
+        "min_value": 0,
+        "max_value": 80
+      }
+    }
+  }
+}

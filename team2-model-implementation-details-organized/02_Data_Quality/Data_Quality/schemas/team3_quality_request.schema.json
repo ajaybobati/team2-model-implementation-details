@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "QualityCheckRequest",
+  "type": "object",
+  "properties": {
+    "dataset_name": {
+      "type": "string"
+    },
+    "file_path": {
+      "type": "string"
+    },
+    "rules_to_apply": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "default": [
+        "NULL_CHECK",
+        "DUP_ROW",
+        "INVALID_RANGE",
+        "OUTLIER_IQR"
+      ]
+    }
+  },
+  "required": [
+    "dataset_name",
+    "file_path"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+    "HumanResources.Employee": {
+        "dataset_id": "HumanResources.Employee",
+        "goal": "Predict employee job title",
+        "target": "JobTitle",
+        "problem_type": "multiclass_classification",
+        "approved_feature_columns": [
+            "OrganizationLevel",
+            "HireDate",
+            "SalariedFlag"
+        ],
+        "target_status": "approved",
+        "problem_type_status": "confirmed",
+        "features_status": "approved",
+        "review_complete": true,
+        "training_allowed": false
+    }
+}

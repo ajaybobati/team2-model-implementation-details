@@ -1,0 +1,17 @@
+
+{
+  "dataset_name": "HumanResources.EmployeePayHistory.xlsx",
+  "execution_timestamp": "2026-11-12T13:33:38.076998Z",
+  "total_rows_scanned": 316,
+  "total_violations_found": 14,
+  "compliance_status": "FAIL",
+  "validation_results": [
+    {
+      "rule_id": "OUTLIER_IQR",
+      "column_name": "Rate",
+      "violation_count": 14,
+      "severity": "MEDIUM",
+      "details": "Found 14 statistical outliers using 1.5x IQR rule."
+    }
+  ]
+}

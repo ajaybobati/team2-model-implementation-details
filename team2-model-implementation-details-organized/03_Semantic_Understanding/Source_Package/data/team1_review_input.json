@@ -1,0 +1,18 @@
+[
+    {
+        "dataset_id": "HumanResources.Employee",
+        "goal": "Predict employee vacation hours",
+        "target": "VacationHours",
+        "problem_type": "regression",
+        "approved_feature_columns": [
+            "OrganizationLevel",
+            "JobTitle",
+            "SalariedFlag"
+        ],
+        "target_status": "approved",
+        "problem_type_status": "confirmed",
+        "features_status": "approved",
+        "review_complete": true,
+        "training_allowed": false
+    }
+]

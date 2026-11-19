@@ -1,0 +1,13 @@
+{
+  "dataset_name": "HumanResources.EmployeePayHistory.xlsx",
+  "rules_to_apply": [
+    "NULL_CHECK",
+    "DUP_ROW",
+    "INVALID_RANGE",
+    "OUTLIER_IQR"
+  ],
+  "thresholds": {
+    "max_null_percentage": 0.0,
+    "iqr_multiplier": 1.5
+  }
+}
